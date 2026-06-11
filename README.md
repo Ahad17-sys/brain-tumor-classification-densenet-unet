@@ -48,6 +48,13 @@ project/
 
 ## Proposed Framework
 
-![Project Workflow](images/workflow.png)
 
-The proposed framework uses MRI images as input, applies preprocessing techniques, extracts deep features using DenseNet121, refines spatial information through a U-Net inspired decoder, and performs multi-class brain tumor classification.
+<h2>Proposed Framework</h2>
+
+<p align="center">
+  <img src="images/workflow.png" width="500">
+</p>
+
+<p align="center">
+  Workflow of the proposed DenseNet121 + U-Net architecture.
+</p>
