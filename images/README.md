@@ -1,4 +1,3 @@
+## Proposed Framework
 
-<p align="center">
-  <img src="images/workflow.png" width="500">
-</p>
+MRI Images → Preprocessing → DenseNet121 Encoder → U-Net Decoder → Classification → Prediction
