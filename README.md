@@ -1,2 +1,47 @@
-# brain-tumor-classification-densenet-unet
-A hybrid deep learning framework for brain tumor classification from MRI images using DenseNet121 and a U-Net inspired architecture. The model classifies Glioma, Meningioma, Pituitary Tumor, and No Tumor cases through advanced feature extraction and spatial learning.
+# Brain Tumor Classification Using DenseNet121 and U-Net
+
+## Overview
+This project presents a hybrid deep learning framework for brain tumor classification from MRI images. The model combines DenseNet121 for feature extraction and a U-Net inspired architecture for enhanced spatial learning and multi-class classification.
+
+## Dataset
+- Brain Tumor MRI Dataset (Kaggle)
+- Classes:
+  - Glioma
+  - Meningioma
+  - Pituitary Tumor
+  - No Tumor
+
+## Technologies Used
+- Python
+- TensorFlow
+- Keras
+- NumPy
+- OpenCV
+- Matplotlib
+
+## Methodology
+1. MRI image preprocessing
+2. Image normalization and resizing
+3. DenseNet121 feature extraction
+4. U-Net inspired feature refinement
+5. Multi-class tumor classification
+
+## Project Structure
+```
+project/
+├── dataset/
+├── models/
+├── notebooks/
+├── training/
+├── testing/
+└── README.md
+```
+
+## Applications
+- Computer-aided diagnosis
+- Medical image analysis
+- Brain tumor screening
+
+## Authors
+- Md Abdul Ahad
+- K. Sathvika
