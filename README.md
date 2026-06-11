@@ -45,3 +45,9 @@ project/
 ## Authors
 - Md Abdul Ahad
 - K. Sathvika
+
+## Proposed Framework
+
+![Project Workflow](images/workflow.png)
+
+The proposed framework uses MRI images as input, applies preprocessing techniques, extracts deep features using DenseNet121, refines spatial information through a U-Net inspired decoder, and performs multi-class brain tumor classification.
